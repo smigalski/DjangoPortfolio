@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ayn959y9$gc1!7!mouxs8+9b%hcua!vvtdi$_ms6_wydpnxnd4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['danielsmigala01.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -128,5 +128,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-#Das ist eine Änderung als Commit zu Github geht und dann zu pythonanywhere
+
 
