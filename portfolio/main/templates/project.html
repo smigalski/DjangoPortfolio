@@ -15,7 +15,7 @@
       <p>
         <a href="{{ project.link }}">Project Link</a>
       </p>
-      <p>{{ project.description }}</p>
+      <p>{{ project.description|linebreaks }}</p>
       <a href="{% url 'home' %}">Back to Home</a>
     </div>
     <div class="carousel">
